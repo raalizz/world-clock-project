@@ -11,3 +11,11 @@ h1 {
 footer {
   text-align: center;
 }
+.fa-brands.fa-square-github {
+  font-size: 20px;
+  color: #840a84;
+}
+.fa-brands.fa-linkedin {
+  font-size: 20px;
+  color: #0270ad;
+}
