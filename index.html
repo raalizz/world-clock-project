@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Clock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Clock</h1>
+      <div class="select-container">
+        <select name="cities" id="cities">
+          <option value="">select a city</option>
+          <option value="Europe/paris">Paris 🇫🇷</option>
+          <option value="Asia/tokyo">Tokyo 🇯🇵</option>
+          <option value="Australia/sydney">Sydney 🇦🇺</option>
+        </select>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
