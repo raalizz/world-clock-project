@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/6eae258bbb.js"
+      crossorigin="anonymous"
+    ></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="style.css" />
@@ -17,15 +22,21 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <div class="select-container">
-        <select name="cities" id="cities">
-          <option value="">select a city</option>
-          <option value="Europe/paris">Paris 🇫🇷</option>
-          <option value="Asia/tokyo">Tokyo 🇯🇵</option>
-          <option value="Australia/sydney">Sydney 🇦🇺</option>
-        </select>
-      </div>
+      <div class="select-container"></div>
     </div>
+    <footer>
+      <i class="fa-brands fa-square-github"></i>
+      <a
+        class="githubLink"
+        href="https://github.com/raalizz/my-weather-app"
+        target="_blank"
+        >open-source code</a
+      >
+      <i class="fa-brands fa-linkedin"></i>
+      <a href="https://www.linkedin.com/in/raghdaalizz" target="_blank">
+        by Raghda Al-Shaikhli
+      </a>
+    </footer>
     <script src="app.js"></script>
   </body>
 </html>
