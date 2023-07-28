@@ -53,6 +53,9 @@ h2 {
   line-height: 36px;
   vertical-align: middle;
 }
+.fa-solid.fa-left-long {
+  color: #551a8b;
+}
 footer {
   text-align: center;
   color: rgba(0, 0, 0, 0.8);
